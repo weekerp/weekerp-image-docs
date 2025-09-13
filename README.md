@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://weekerp.gitbook.io/en">English</a> | 
-  <a href="https://weekerp.gitbook.io/ko">한국어</a>
+  <a href="https://weekerp.gitbook.io/image/en">English</a> | 
+  <a href="https://weekerp.gitbook.io/image/ko">한국어</a>
 </p>
 
 ## 🎬 Demo
