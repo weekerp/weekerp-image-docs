@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.weekerp.com/image/weekerp/image/logo/logo_blue_symbol_text.png" alt="Weekerp Logo" width="320"/>
+  <img src="https://cdn.weekerp.com/image/weekerp/image/logo/logo_white_symbol_text.png" alt="Weekerp Logo" width="320"/>
 </p>
 
 <h1 align="center">Weekerp Image Docs</h1>
@@ -12,8 +12,6 @@
 <p align="center">
   Welcome to the official documentation repository for <strong>Weekerp Image</strong>.
 </p>
-
----
 
 ## 🎬 Demo
 <p align="center">
