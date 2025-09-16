@@ -1,6 +1,6 @@
 # Table of contents
 
-* [안녕하세요!](README.md)
+* [Welcome, Weekerp Image](README.md)
 
 ## Getting Started
 
