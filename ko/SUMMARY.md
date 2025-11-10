@@ -4,14 +4,15 @@
 
 ## 시작하기
 
-* [빠른 시작 가이드](undefined/quickstart.md)
+* [빠른 시작 가이드](getting-started/quickstart.md)
 * [도움이 필요해요](undefined/undefined.md)
 
 ## 스토리지 연결 <a href="#stroage" id="stroage"></a>
 
-* [AWS S3](stroage/aws.md)
-* [GCP GCS](stroage/gcp.md)
-* [Azure Blob](stroage/openapi.md)
+* [AWS S3](basics/images-and-media.md)
+* [GCP GCS](basics/interactive-blocks.md)
+* [Azure Blob](stroage/azure.md)
+* [Web Proxy](stroage/web.md)
 
 ## 리소스 <a href="#resources" id="resources"></a>
 
@@ -27,6 +28,6 @@
 
 * [송신](video-api/undefined.md)
 
-## 요금
+## 요금 <a href="#billing" id="billing"></a>
 
-* [요금](undefined-1/undefined.md)
+* [요금](billing/overview.md)

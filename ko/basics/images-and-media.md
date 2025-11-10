@@ -1,5 +1,5 @@
 ---
-icon: amazon
+icon: aws
 ---
 
 # AWS S3
