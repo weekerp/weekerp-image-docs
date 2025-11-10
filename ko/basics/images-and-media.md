@@ -118,11 +118,17 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 
 #### 7. 스크롤 후 하단 Create access Key 클릭
 
+1. 아래로 스크롤
+2. Create Access Key 클릭릭
+
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 
 
 #### 8. Description 추가 후 키 생성
+
+1. Description tag value 입력
+2. Create Access Key 클릭릭
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -131,6 +137,9 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 
 
 #### 9. 결과 확인 및 CSV 파일 다운로드
+
+1. 키 확인
+2. (권장) CSV 파일 다운로드드
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
@@ -151,6 +160,19 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 #### 11. 발급한 정보 입력
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+BasePath는 버킷에 루트 디렉터리를 설정합니다.
+{% endhint %}
+
+
+
+* /dog.jpg
+* /assets/cat.png
+
+위와 같이 파일을 보관하고 있는 경우
+
+basePath는 /(root) 혹은 /assets 으로 설정할 수 있습니다.
 
 
 

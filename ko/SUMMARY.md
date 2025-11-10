@@ -14,6 +14,7 @@
 * [GCP GCS](basics/interactive-blocks.md)
 * [Azure Blob](basics/openapi.md)
 * [Web Proxy](stroage/web.md)
+* [스토리지 옵션](stroage/undefined.md)
 
 ## 리소스 <a href="#resources" id="resources"></a>
 
@@ -36,3 +37,7 @@
 ## 청구ㆍ결제 <a href="#billing" id="billing"></a>
 
 * [요금](billing/overview.md)
+
+## Group 1
+
+* [Page 2](group-1/page-2.md)
