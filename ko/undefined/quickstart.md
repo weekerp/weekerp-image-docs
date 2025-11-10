@@ -2,11 +2,11 @@
 icon: bullseye-arrow
 ---
 
-# Quickstart
+# 빠른 시작 가이드
 
 <figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+ㄷ
 
 {% hint style="info" %}
 Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
