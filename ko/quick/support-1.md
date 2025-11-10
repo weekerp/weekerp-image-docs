@@ -1,8 +1,8 @@
 ---
-icon: envelope-open-text
+icon: comment-plus
 ---
 
-# 기능 추가, 도움이 필요해요
+# 기능을 추가해주세요
 
 
 
