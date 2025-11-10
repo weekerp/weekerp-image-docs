@@ -11,7 +11,7 @@
 
 * [AWS S3](basics/images-and-media.md)
 * [GCP GCS](basics/interactive-blocks.md)
-* [Azure Blob](stroage/azure.md)
+* [Azure Blob](basics/openapi.md)
 * [Web Proxy](stroage/web.md)
 
 ## 리소스 <a href="#resources" id="resources"></a>
