@@ -17,9 +17,9 @@
 
 ## 리소스 <a href="#resources" id="resources"></a>
 
-* [이미지 API](resources/image-abstract.md)
-* [비디오 API](resources/image-abstract-1.md)
-* [범용 파일 API](resources/image-abstract-2.md)
+* [이미지 API](resources/image-overview.md)
+* [비디오 API](resources/video-overview.md)
+* [범용 파일 API](resources/file-overview.md)
 
 ## 이미지 API <a href="#image-api" id="image-api"></a>
 
@@ -29,6 +29,10 @@
 
 * [송신](video-api/undefined.md)
 
-## 요금 <a href="#billing" id="billing"></a>
+## 스페이스 <a href="#space" id="space"></a>
+
+* [대시보드](space/dashboard.md)
+
+## 청구ㆍ결제 <a href="#billing" id="billing"></a>
 
 * [요금](billing/overview.md)
