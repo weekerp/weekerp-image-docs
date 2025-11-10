@@ -2,10 +2,10 @@
 
 * [안녕하세요! - 위커프](README.md)
 
-## 시작하기
+## 시작하기 <a href="#quick" id="quick"></a>
 
-* [빠른 시작 가이드](getting-started/quickstart.md)
-* [도움이 필요해요](undefined/undefined.md)
+* [빠른 시작 가이드](quick/start.md)
+* [기능 추가, 도움이 필요해요](quick/support.md)
 
 ## 스토리지 연결 <a href="#stroage" id="stroage"></a>
 
