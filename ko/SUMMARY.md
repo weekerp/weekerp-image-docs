@@ -19,12 +19,12 @@
 
 ## 리소스 <a href="#resources" id="resources"></a>
 
-* [이미지 API](resources/image-overview/README.md)
-  * [사이즈 조절](resources/image-overview/undefined.md)
-  * [리사이징 방식 조절](resources/image-overview/undefined-1.md)
-  * [포맷 변환](resources/image-overview/undefined-2.md)
-* [비디오 API](resources/video-overview.md)
-* [범용 파일 API](resources/file-overview.md)
+* [이미지 API](resources/image/README.md)
+  * [사이즈 조절](resources/image/resize.md)
+  * [리사이징 방식 조절](resources/image/fit.md)
+  * [포맷 변환](resources/image/format.md)
+* [비디오 API](resources/video.md)
+* [범용 파일 API](resources/file.md)
 * [캐시](resources/cache.md)
 
 ## 스페이스 <a href="#space" id="space"></a>
