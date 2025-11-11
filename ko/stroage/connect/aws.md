@@ -170,6 +170,8 @@ BasePath는 버킷에 루트 디렉터리를 설정합니다.
 
 basePath는 /(root) 혹은 /assets 으로 설정할 수 있습니다.
 
+자세한 사안은 [basepath.md](../basepath.md "mention")을 참고해주세요.
+
 
 
 #### 12. 고유의 식별자 입력

@@ -6,7 +6,7 @@
 
 * [빠른 시작 가이드](getting-started/quickstart.md)
 * [도움이 필요해요](undefined/undefined.md)
-* [기능을 추가해주세요](quick/support-1.md)
+* [기능을 추가해주세요](quick/feature.md)
 
 ## 스토리지 <a href="#stroage" id="stroage"></a>
 

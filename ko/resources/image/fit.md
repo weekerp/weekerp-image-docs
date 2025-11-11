@@ -1,5 +1,5 @@
 ---
-icon: arrow-down-left-and-arrow-up-right-to-center
+icon: arrows-rotate-reverse
 ---
 
 # 리사이징 방식 조절
