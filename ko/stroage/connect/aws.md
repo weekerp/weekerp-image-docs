@@ -44,7 +44,7 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 
 #### 1. AWS 관리 콘솔, IAM 검색
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -53,7 +53,7 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 1. 좌측 네비게이션 바 User 탭 클릭
 2. 우측 하단 Create user 클릭
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -62,7 +62,7 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 1. weekerp-cdn-reader 입력
 2. 다음버튼 클릭
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -72,7 +72,7 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 2. 검색 결과 클릭
 3. 다음 버튼 클릭
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -106,13 +106,13 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 1. 생성결과 확인
 2. View User 클릭
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
 #### 6. 유저 상세화면 중 Security Credentials 탭 클릭
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ㅡ
 
@@ -121,7 +121,7 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 1. 아래로 스크롤
 2. Create Access Key 클릭릭
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -130,9 +130,7 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 1. Description tag value 입력
 2. Create Access Key 클릭릭
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -141,11 +139,9 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 1. 키 확인
 2. (권장) CSV 파일 다운로드드
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
-
-
 
 #### 10. 위커프 접속 후 우측 상단 Add Source 클릭
 
@@ -153,13 +149,13 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 2. Source 탭 클릭 후
 3. Add Source 클릭
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 
 
 #### 11. 발급한 정보 입력
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 BasePath는 버킷에 루트 디렉터리를 설정합니다.
@@ -178,7 +174,7 @@ basePath는 /(root) 혹은 /assets 으로 설정할 수 있습니다.
 
 #### 12. 고유의 식별자 입력
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -194,7 +190,7 @@ https://cdn.weekerp.com/image/**`{unique-identifier}`**/dog.jpg?s=200x200
 
 #### 13. 생성된 CDN 확인
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 
 

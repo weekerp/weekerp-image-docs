@@ -23,7 +23,7 @@ icon: bullseye-arrow
 
 리소스의 원본(Origin)은 아래 중 하나를 선택할 수 있습니다.
 
-<table><thead><tr><th width="139.85711669921875">구분</th><th width="401.142822265625">설명</th><th>문서</th></tr></thead><tbody><tr><td>AWS S3</td><td>기존 S3 버킷을 연결합니다.</td><td><a href="../basics/images-and-media.md">AWS 연결 가이드</a></td></tr><tr><td>GCP GCS</td><td>GCP Storage 버킷을 연결합니다.</td><td><a href="../basics/interactive-blocks.md">GCP 연결 가이드</a></td></tr><tr><td>Azure Blob</td><td>Azure Blob Container를 연결합니다.</td><td><a href="../basics/openapi.md">Azure 연결 가이드</a></td></tr><tr><td>Web Proxy</td><td>외부 이미지 URL을 프록시 형태로 캐싱합니다.</td><td><a href="../stroage/web.md">Web Proxy 가이드</a></td></tr></tbody></table>
+<table><thead><tr><th width="139.85711669921875">구분</th><th width="401.142822265625">설명</th><th>문서</th></tr></thead><tbody><tr><td>AWS S3</td><td>기존 S3 버킷을 연결합니다.</td><td><a href="../stroage/connect/aws.md">AWS 연결 가이드</a></td></tr><tr><td>GCP GCS</td><td>GCP Storage 버킷을 연결합니다.</td><td><a href="../stroage/connect/gcp.md">GCP 연결 가이드</a></td></tr><tr><td>Azure Blob</td><td>Azure Blob Container를 연결합니다.</td><td><a href="../stroage/connect/azure.md">Azure 연결 가이드</a></td></tr><tr><td>Web Proxy</td><td>외부 이미지 URL을 프록시 형태로 캐싱합니다.</td><td><a href="../stroage/connect/web.md">Web Proxy 가이드</a></td></tr></tbody></table>
 
 저장소는 여러 개 생성할 수 있으며, 언제든 수정, 삭제가 가능합니다.
 
