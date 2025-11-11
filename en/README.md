@@ -25,4 +25,13 @@ Easily transform your images, videos, and other files — without complex develo
 
 ### Need other resources?
 
+### Need other resources?
+
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Image API</strong></td><td>Easily transform images</td><td></td><td></td><td><a href="resources/image/">image</a></td></tr><tr><td><strong>Video API</strong></td><td>Easily transform videos</td><td></td><td></td><td><a href="resources/video.md">video.md</a></td></tr><tr><td><strong>Universal File API</strong></td><td>Transfer files instantly</td><td></td><td></td><td><a href="resources/file.md">file.md</a></td></tr></tbody></table>
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Image API</strong></td><td>Easily transform images</td><td></td><td></td><td><a href="resources/image/">image</a></td></tr><tr><td><strong>Video API</strong></td><td>Easily transform videos</td><td></td><td></td><td><a href="resources/video.md">video.md</a></td></tr><tr><td><strong>Universal File API</strong></td><td>Transfer files instantly</td><td></td><td></td><td><a href="resources/file.md">file.md</a></td></tr></tbody></table>
+
+### Need Help?
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Support Team</strong></td><td>Get help from the Weekerp</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+
