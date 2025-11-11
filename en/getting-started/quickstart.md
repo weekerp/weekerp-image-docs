@@ -4,20 +4,55 @@ icon: bullseye-arrow
 
 # Quickstart
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+#### 1️⃣ Create an Account
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+Go to [**weekerp.com**](https://weekerp.com).
 
-{% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
-{% endhint %}
+Select **Google Login** to sign up.
 
-### Import
+***
 
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
+#### 2️⃣ Connect Your Storage
 
-<div data-full-width="false"><figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure></div>
+Your images must be stored in one of the following locations:
 
-### Sync a repository
+* **Cloud Storage**
+* **Your Web Server**
 
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
+The origin of your resources can be connected from one of the following sources:
+
+| Type           | Description                          | Docs                      |
+| -------------- | ------------------------------------ | ------------------------- |
+| **AWS S3**     | Connect an existing S3 bucket.       | \[AWS Connection Guide]   |
+| **GCP GCS**    | Connect a GCP Storage bucket.        | \[GCP Connection Guide]   |
+| **Azure Blob** | Connect an Azure Blob container.     | \[Azure Connection Guide] |
+| **Web Proxy**  | Cache external image URLs via proxy. | \[Web Proxy Guide]        |
+
+You can create multiple storage sources, and modify or delete them anytime.
+
+***
+
+#### 3️⃣ Apply Image CDN
+
+Once connected, you can load images through Weekerp CDN as follows:
+
+```html
+<img src="https://cdn.weekerp.com/image/{workspace}/example.jpg?w=800&q=80" />
+```
+
+| Parameter | Description                             |
+| --------- | --------------------------------------- |
+| `source`  | Unique data source name                 |
+| `w`       | Image width to resize                   |
+| `q`       | Quality (1–100)                         |
+| `f`       | Format conversion (`jpg`, `webp`, etc.) |
+
+After the first resizing, all images are cached and served globally for ultra-fast response.
+
+***
+
+#### 4️⃣ Billing & Subscription
+
+Weekerp uses a **usage-based billing model**.\
+You can find detailed information here:
+
