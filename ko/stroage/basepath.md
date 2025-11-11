@@ -1,3 +1,7 @@
+---
+icon: slash-forward
+---
+
 # BasePath 설정
 
 `BasePath`는 버킷 내에서 **리소스의 루트 경로(root directory)** 를 지정하는 옵션입니다.\
@@ -14,7 +18,7 @@
 
 
 
-이 경우, BasePath는 아래 두 가지 방식으로 설정할 수 있습니다.
+이 경우, BasePath는 아래 방식으로 설정할 수 있습니다.
 
 <table><thead><tr><th width="131.71429443359375">설정 값</th><th>설명</th></tr></thead><tbody><tr><td><code>/</code></td><td><p>버킷의 루트 디렉터리를 기준으로 모든 파일에 접근합니다.</p><p><br>위커프사용  예: <code>https://cdn.weekerp.com/image/mysource/</code><strong><code>dog.jpg</code></strong></p></td></tr><tr><td><code>/assets</code></td><td><p><code>assets</code> 폴더를 루트로 지정합니다.</p><p><br>위커프사용  예: <code>https://cdn.weekerp.com/image/mysource/</code><strong><code>dog.jpg</code></strong></p></td></tr><tr><td><code>/</code></td><td><code>assets</code> 폴더를 루트로 지정하지 않은 경우<br><br>위커프사용  예: <code>https://cdn.weekerp.com/image/mysource/assets/</code><strong><code>cat.jpg</code></strong></td></tr></tbody></table>
 
