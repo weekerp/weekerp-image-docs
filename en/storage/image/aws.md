@@ -48,15 +48,25 @@ Enter the credentials you obtained above.
 
 **1.** Open the **AWS Management Console**, and search for **IAM**.
 
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+
+
+**2.** In the left navigation bar, click **Users**, then click **Create user** at the bottom right.
+
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
-**2.** In the left navigation bar, click **Users**, then click **Create user** at the top right.
-
 **3.** Enter the user name, for example `weekerp-cdn-reader`, and click **Next**.
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
 **4.** Under **Permissions**, search for **AmazonS3ReadOnlyAccess**, select it, and click **Next**.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 If you prefer to attach a custom policy manually, the required permissions are as follows:
 
@@ -79,25 +89,55 @@ If you prefer to attach a custom policy manually, the required permissions are a
 }
 ```
 
+
+
 **5.** Review the creation result and click **View User**.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
 
 **6.** Open the **Security Credentials** tab.
 
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+
+
 **7.** Scroll down and click **Create access key**.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
 
 **8.** Add a description (optional) and click **Create access key** again.
 
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+
+
 **9.** Check the result and (recommended) **download the CSV file** containing your keys.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
 #### Registering with Weekerp
 
-**10.** Go to **Weekerp → Sources → Add Source → Amazon S3**.
+**10.** Go to  [**Weekerp**](https://weekerp.com/space/callback) **→ Sources → Add Source → Amazon S3**.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+
 
 **11.** Enter the credentials you generated earlier.
 
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
 **BasePath** defines the root directory within your bucket.
+{% endhint %}
 
 Example:
 
@@ -108,12 +148,22 @@ Example:
 
 In this case, BasePath can be `/` (root) or `/assets`.
 
-**12.** Assign a unique identifier.\
+For more details, please refer to [basepath.md](../basepath.md "mention")
+
+
+
+**12.** Assign a unique identifier.
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+\
 This identifier will be used in your CDN URL:
 
 ```
 https://cdn.weekerp.com/image/{unique-identifier}/dog.jpg?s=200x200
 ```
+
+
 
 **13.** Verify the created CDN connection.\
 Once setup is complete, it typically takes **5–10 minutes** for propagation across all global edge locations.

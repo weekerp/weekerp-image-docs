@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-* [Need Help?](getting-started/support.md)
+* [Need Help?](getting-started/publish-your-docs.md)
 * [Request a Feature](getting-started/feature.md)
 
 ## Storage
@@ -15,7 +15,7 @@
   * [GCP GCS](storage/image/gcp.md)
   * [Azure Blob](storage/image/azure.md)
   * [Web Proxy](storage/image/web.md)
-* [BasePath](storage/file.md)
+* [BasePath](storage/basepath.md)
 
 ## resources
 
