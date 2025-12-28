@@ -9,7 +9,6 @@ icon: video
 베타 접근 권한을 순차적으로 제공해드리고 있습니다.
 
 현재는 `/video` 대신 `/file` 엔드포인트를 사용하실 수 있습니다.\
-예시:\
-
+예시:<br>
 
 `cdn.weekerp.com/file/example.mp4`

@@ -1,12 +1,13 @@
 ---
+description: 전체 설정까지 10분
 icon: aws
 ---
 
 # AWS S3
 
-위커프 CDN과 S3를 연결하는 과정에 대한 가이드에요.
+위커프 API를 이용하기 위해 AWS S3에 연결하는 방법을 안내합니다.
 
-IAM 계정을 발급하고 위커프에 등록하는 과정이에요.
+자격 증명을 발급하고 발급받은 자격 증명을 위커프에 등록하는 전체 과정을 포함합니다.
 
 
 
@@ -143,7 +144,16 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 
 &#x20;
 
-#### 10. 위커프 접속 후 우측 상단 Add Source 클릭
+#### 10. 다음과 같은 정보가 준비되어 있어야 합니다.
+
+1. Bucket Region (Step #1)
+2. Access Key ID (Step #9)
+3. Secret Access Key (Step #9)
+4. Bucket Name (Step #4)
+
+
+
+#### 11. 위커프 접속 후 우측 상단 Add Source 클릭
 
 1. [위커프 접속](https://weekerp.com/space/callback)
 2. Source 탭 클릭 후
@@ -153,46 +163,69 @@ AWS에 익숙하지 않다면, Weekerp 에서 이미지를 접근할 수 있도�
 
 
 
-#### 11. 발급한 정보 입력
+#### 12. Amazon S3 선택
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### 13. 자격증명 정보 입력
+
+1. Region 선택
+2. Access Key ID 입력
+3. Secret Access Key 입력
+4. Bucket Name 입력
+
+<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% hint style="info" %}
-BasePath는 버킷에 루트 디렉터리를 설정합니다.
+BasePath는 원본 요청의 루트 디렉터리를 설정합니다.
 {% endhint %}
 
-
+파일을 아래와 같이 보관하고 있는 경우 basePath는 / 혹은 /assets 으로 설정할 수 있습니다.
 
 * /dog.jpg
 * /assets/cat.png
 
-위와 같이 파일을 보관하고 있는 경우
 
-basePath는 /(root) 혹은 /assets 으로 설정할 수 있습니다.
+
+**요청 예시**
+
+* `cdn.weekerp.com/image/{alias}/dog.jpg`
+
+**원본 요청**
+
+* BasePath 설정 : https://static.example.com/**`assets`**/dog.jpg
+* BasePath 미 설정 : https://static.example.com/dog.jpg
 
 자세한 사안은 [basepath.md](../basepath.md "mention")을 참고해주세요.
 
 
 
-#### 12. 고유의 식별자 입력
+#### 14. 소스 별칭(alias) 입력
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+1. 사용할 별칭 입력
+2. 별칭을 생성
 
-
-
-{% hint style="info" %}
-고유의 식별자를 통해 CDN을 이용할 수 있습니다.
+<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 
 
-https://cdn.weekerp.com/image/**`{unique-identifier}`**/dog.jpg?s=200x200
-{% endhint %}
+#### 15. 생성된 데이터 소스 확인
+
+<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
 
 
 
-#### 13. 생성된 CDN 확인
+#### 다음과 같이 사용하세요.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+cdn.weekerp.com/<mark style="color:red;">`image`</mark>/`weekerp-assets`/dog.jpg
+
+cdn.weekerp.com/<mark style="color:red;">`image`</mark>/`weekerp-assets`/dog.jpg?ai=Rotate the image to the right
+
+cdn.weekerp.com/<mark style="color:red;">`video`</mark>/`weekerp-assets`/test-video.mp4
 
 
 
