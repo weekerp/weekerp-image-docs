@@ -8,14 +8,14 @@
 * [도움이 필요해요](undefined/undefined.md)
 * [기능을 추가해주세요](quick/feature.md)
 
-## 스토리지 <a href="#stroage" id="stroage"></a>
+## 스토리지 <a href="#storage" id="storage"></a>
 
-* [소스 연결](stroage/connect/README.md)
-  * [AWS S3](stroage/connect/aws.md)
-  * [GCP GCS](stroage/connect/gcp.md)
-  * [Azure Blob](stroage/connect/azure.md)
-  * [Web Proxy](stroage/connect/web.md)
-* [BasePath 설정](stroage/basepath.md)
+* [소스 연결](storage/connect/README.md)
+  * [AWS S3](storage/connect/aws.md)
+  * [GCP GCS](storage/connect/gcp.md)
+  * [Azure Blob](storage/connect/azure.md)
+  * [Web Proxy](storage/connect/web.md)
+* [BasePath 설정](storage/basepath.md)
 
 ## 리소스 <a href="#resources" id="resources"></a>
 
