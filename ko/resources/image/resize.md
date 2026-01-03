@@ -12,7 +12,7 @@ icon: arrow-down-left-and-arrow-up-right-to-center
 
 
 
-#### `size`
+#### `size(s)`&#x20;
 
 **설명**\
 가로(`width`)와 세로(`height`)를 동시에 설정할 수 있는 단일 옵션입니다.\

@@ -20,6 +20,9 @@
 ## 리소스 <a href="#resources" id="resources"></a>
 
 * [이미지 API](resources/image/README.md)
+  * [AI 쿼리](resources/image/ai/README.md)
+    * [요청의 일관성](resources/image/ai/consistency.md)
+    * [디버깅](resources/image/ai/debugging.md)
   * [사이즈 조절](resources/image/resize.md)
   * [리사이징 방식 조절](resources/image/fit.md)
   * [포맷 변환](resources/image/format.md)
