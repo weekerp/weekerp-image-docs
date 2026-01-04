@@ -1,8 +1,8 @@
 ---
-icon: arrows-rotate-reverse
+icon: frame
 ---
 
-# 리사이징 방식 조절
+# 리사이징 방식
 
 ### 리사이징 방식 조절 (Fit & Position)
 
