@@ -6,7 +6,7 @@ coverY: 0
 
 # 안녕하세요! - 위커프
 
-위커프 이미지는 매니지드 CDN 입니다.\
+위커프 Image API 입니다.\
 복잡한 개발과정 없이 이미지, 비디오 다른 파일을 손쉽게 변형해보세요.
 
 {% embed url="https://cdn.weekerp.com/file/weekerp/demo.webm" %}
