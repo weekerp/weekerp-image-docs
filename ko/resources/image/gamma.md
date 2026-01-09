@@ -1,4 +1,5 @@
 ---
+description: '최종 수정일: 2026-01-05'
 icon: arrows-to-dot
 ---
 
