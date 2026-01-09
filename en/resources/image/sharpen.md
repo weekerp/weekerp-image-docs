@@ -37,7 +37,7 @@ Higher values produce a stronger sharpening effect, but depending on the image, 
 
 **Examples**
 
-| 요청             | 결과                                                 |
+| Request        | Result                                             |
 | -------------- | -------------------------------------------------- |
 | `?sharpen=1.2` | Apply **light sharpening**                         |
 | `?sharpen=3`   | Apply **stronger sharpening** (may increase noise) |

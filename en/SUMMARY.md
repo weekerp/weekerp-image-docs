@@ -31,7 +31,7 @@
   * [Grayscale](resources/image/grayscale.md)
   * [Blur (Mosaic)](resources/image/blur.md)
   * [Sharpen](resources/image/sharpen.md)
-  * [Gamma Correction (Midtones)](resources/image/gamma.md)
+  * [Gamma (Midtones)](resources/image/gamma.md)
   * [Brightness](resources/image/brightness.md)
   * [Saturation](resources/image/saturation.md)
   * [Hue](resources/image/color-adjust.md)
