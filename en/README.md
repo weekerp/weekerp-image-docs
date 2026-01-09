@@ -23,7 +23,7 @@ Transform images, videos, and other files easily—without a **complex developme
 
 ### Get started quickly
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Get started quickly</strong></td><td>Quick Start</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Connect your data source</strong></td><td>Connect your storage</td><td></td><td></td><td><a href="storage/image/">image</a></td></tr><tr><td><strong>AI Query</strong></td><td>Try the AI Query</td><td></td><td></td><td><a href="resources/image/ai/">ai</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Get started quickly</strong></td><td>Quick Start</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Connect your data source</strong></td><td>Connect your storage</td><td></td><td></td><td><a href="storage/connect/">connect</a></td></tr><tr><td><strong>AI Query</strong></td><td>Try the AI Query</td><td></td><td></td><td><a href="resources/image/ai/">ai</a></td></tr></tbody></table>
 
 
 

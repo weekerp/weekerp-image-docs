@@ -10,11 +10,11 @@
 
 ## Storage
 
-* [Source Connection](storage/image/README.md)
-  * [AWS S3](storage/image/aws.md)
-  * [GCP GCS](storage/image/gcp.md)
-  * [Azure Blob](storage/image/azure.md)
-  * [Web Proxy](storage/image/web.md)
+* [Source Connection](storage/connect/README.md)
+  * [AWS S3](storage/connect/aws.md)
+  * [GCP GCS](storage/connect/gcp.md)
+  * [Azure Blob](storage/connect/azure.md)
+  * [Web Proxy](storage/connect/web.md)
 * [BasePath](storage/basepath.md)
 
 ## resources
