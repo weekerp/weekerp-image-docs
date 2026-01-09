@@ -1,6 +1,6 @@
 ---
 description: '최종 수정일: 2026-01-05'
-icon: arrows-rotate
+icon: cloud-showers-heavy
 ---
 
 # 흑백 변환
