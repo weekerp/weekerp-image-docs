@@ -1,4 +1,5 @@
 ---
+description: 'Last updated: January 8, 2026'
 icon: globe-pointer
 ---
 
@@ -35,8 +36,7 @@ For example, the following two requests generate **separate cache entries**:
 #### Cache Purge
 
 Currently, **no official cache purge feature** is provided.\
-However, if you urgently need to remove cached content,\
-please contact **help@weekerp.com** for **manual assistance**.
+However, if you urgently need to remove cached content, please contact [publish-your-docs.md](../getting-started/publish-your-docs.md "mention")
 
 ***
 

@@ -1,5 +1,6 @@
 ---
 description: 'Last updated: January 8, 2026'
+icon: circle-half-stroke
 ---
 
 # Threshold (Binarize)

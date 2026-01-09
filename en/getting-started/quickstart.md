@@ -6,9 +6,8 @@ icon: bullseye-arrow
 
 #### 1️⃣ Create an Account
 
-Go to [**weekerp.com**](https://weekerp.com).
-
-Select **Google Login** to sign up.
+1. Go to [**weekerp.com**](https://weekerp.com).
+2. Select **Google Login** to sign up.
 
 ***
 
@@ -21,12 +20,9 @@ Your images must be stored in one of the following locations:
 
 The origin of your resources can be connected from one of the following sources:
 
-| Type           | Description                          | Docs                      |
-| -------------- | ------------------------------------ | ------------------------- |
-| **AWS S3**     | Connect an existing S3 bucket.       | \[AWS Connection Guide]   |
-| **GCP GCS**    | Connect a GCP Storage bucket.        | \[GCP Connection Guide]   |
-| **Azure Blob** | Connect an Azure Blob container.     | \[Azure Connection Guide] |
-| **Web Proxy**  | Cache external image URLs via proxy. | \[Web Proxy Guide]        |
+<table><thead><tr><th width="139.85711669921875">Type</th><th width="401.142822265625">Description</th><th>Docs</th></tr></thead><tbody><tr><td>AWS S3</td><td>Connect an existing S3 bucket.</td><td><a data-mention href="../storage/image/aws.md">aws.md</a></td></tr><tr><td>GCP GCS</td><td>Connect a GCP Storage bucket.</td><td><a data-mention href="../storage/image/gcp.md">gcp.md</a></td></tr><tr><td>Azure Blob</td><td>Connect an Azure Blob container.</td><td><a data-mention href="../storage/image/azure.md">azure.md</a></td></tr><tr><td>Web Proxy</td><td>Cache external image URLs via proxy.</td><td><a data-mention href="../storage/image/web.md">web.md</a></td></tr></tbody></table>
+
+
 
 You can create multiple storage sources, and modify or delete them anytime.
 
