@@ -15,7 +15,7 @@ coverY: 0
 
 ### 빠르게 시작해보세요
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>빠르게 시작하기</strong></td><td>빠르게 시작해보세요</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>데이터 소스를 연결하세요</strong></td><td>내 스토리지를 연결해보세요</td><td></td><td></td><td><a href="storage/connect/">connect</a></td></tr><tr><td><strong>이미지 API</strong></td><td>이미지 API를 사용해보세요</td><td></td><td></td><td><a href="resources/image/">image</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>빠르게 시작하기</strong></td><td>빠르게 시작해보세요</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>데이터 소스를 연결하세요</strong></td><td>내 스토리지를 연결해보세요</td><td></td><td></td><td><a href="storage/connect/">connect</a></td></tr><tr><td><strong>AI 쿼리</strong></td><td>AI 쿼리를 활용해보세요</td><td></td><td></td><td><a href="resources/image/ai/">ai</a></td></tr></tbody></table>
 
 ### 다른 리소스가 필요하신가요?
 
